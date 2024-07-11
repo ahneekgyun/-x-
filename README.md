@@ -7,11 +7,19 @@
 
 ![Label Image](Label_image.jpeg)  
   
+### 파일 설명  
+crahs+ego를 학습한 코드 : crash+ego_classification_r3d_18.ipynb  
+timing을 학습한 코드 : timing_classification_swin.ipynb  
+weather를 학습한 코드 : weather_to_image_classification.ipynb  
   
+ablation study의 기록이 담긴 엑셀파일 : Weather_image_ablation.xlsx  
+
 ### 접근방식  
   
 클래스 불균형이 매우 심하다.  0번 레이블은 1783개, 6번 레이블은 3개  
 각 레이블별 학습을 따로 진행 -> 결과를 합치는 방식으로 접근  
+  
+연관성이 높은 crash, ego-envolved는 합쳐서 학습
   
 weahter의 경우 동영상 프레임에서 이미지를 추출하여 이미지 데이터셋 구성 후 이미지 분류로 진행    
 why : weather는 맥락의 중요도가 낮을 것이라는 가설 + 많은 데이터 확보 가능 + 이미지 모델이 더 가벼움
