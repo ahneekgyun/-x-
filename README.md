@@ -2,6 +2,8 @@
 
 ### 대회 링크 : https://dacon.io/competitions/official/236064/data  
 
+### 최종 8등, 성능 : 0.72535
+
 ### 대회 Task : 차량 블랙박스 데이터에 대해 4개의 레이블을 분류하는 과제  
 ### Label    : Crash, ego-envolved, weather, timing
 
